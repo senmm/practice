@@ -1,4 +1,4 @@
-# My Note
+# My sandbox
 
-This repository is my note.
+This repository is my sandbox.
 
