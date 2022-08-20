@@ -22,3 +22,4 @@ assert (
 )
 
 print("The mission is done! Click 'Check Solution' to earn rewards!")
+
