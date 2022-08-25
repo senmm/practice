@@ -45,9 +45,9 @@ def morse_decoder(code: str) -> str:
             print("debug char:", char)
             return_str.append(MORSE[char])
         return_str.append(" ")
+    return_str.pop()
     code = str("".join(return_str).capitalize())
-    print(code)
-    return (code)
+    return code
 
 print("Example:")
 print(morse_decoder("... --- -- .   - . -..- -"))
