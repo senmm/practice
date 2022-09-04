@@ -4,7 +4,6 @@ from ast import Return
 def bigger_price(limit: int, data: list[dict]) -> list[dict]:
     return_data = []
     sorted_data = sorted(data, key=lambda x:x['price'], reverse=True)
-    print(sorted_data)
     for i in range(limit):
         return_data.append(sorted_data[i])
     return return_data
